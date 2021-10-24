@@ -29,3 +29,4 @@ left join country b
 on a.CountryCode = b.Code 
 where continent = 'Asia'
 ```
+test
