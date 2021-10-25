@@ -33,7 +33,7 @@ FROM
 STATION
 ```
 
-
+Median
 ```sql
 SELECT ROUND(MEDIAN(Lat_N), 4)
 FROM Station;
