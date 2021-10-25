@@ -1,3 +1,5 @@
+## Problem 1
+
 Given the **CITY** and **COUNTRY** tables, query the sum of the populations of all cities where the *CONTINENT* is *'Asia'*.
 
 **Note:** *CITY.CountryCode* and *COUNTRY.Code* are matching key columns.
@@ -28,4 +30,21 @@ from city a
 left join country b
 on a.CountryCode = b.Code 
 where continent = 'Asia'
+```
+
+## Problem 2
+
+Given the **CITY** and **COUNTRY** tables, query the names of all cities where the *CONTINENT* is *'Africa'*.
+
+**Note:** *CITY.CountryCode* and *COUNTRY.Code* are matching key columns.
+
+### Solution
+
+```sql
+select [city.name](http://city.name/)
+from city
+inner join
+COUNTRY
+on city.countrycode = country.code
+where CONTINENT = 'Africa'
 ```
