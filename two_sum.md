@@ -16,5 +16,20 @@ class Solution:
         return [a, b]
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c0e7e89-b343-4e8f-a718-06dc2e4c0889/Untitled.png)
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c0e7e89-b343-4e8f-a718-06dc2e4c0889/Untitled.png)
+Success
+Details 
+Runtime: 664 ms, faster than 36.49% of Python3 online submissions for Two Sum.
+Memory Usage: 15.1 MB, less than 61.95% of Python3 online submissions for Two Sum.
+Next challenges:
+3Sum
+4Sum
+Two Sum II - Input Array Is Sorted
+Two Sum III - Data structure design
+Subarray Sum Equals K
+Two Sum IV - Input is a BST
+Two Sum Less Than K
+Max Number of K-Sum Pairs
+Count Good Meals
+Count Number of Pairs With Absolute Difference K
+Number of Pairs of Strings With Concatenation Equal to Target
+Show off your acceptance:
