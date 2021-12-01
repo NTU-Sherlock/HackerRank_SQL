@@ -1,2 +1,2 @@
-# HackerRank_SQL
-My solutions on HackerRank-SQL challenges.
+# Leetcode + HackerRank
+My solutions on Leetcode and HackerRank-SQL challenges.
