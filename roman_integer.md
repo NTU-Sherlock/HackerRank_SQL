@@ -49,4 +49,7 @@ class Solution:
             pre = now
         return total
 ```
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0bb2b19f-46a4-4e85-9c09-221ae732fe3c/Untitled.png)
+Success
+Details 
+Runtime: 40 ms, faster than 94.04% of Python3 online submissions for Roman to Integer.
+Memory Usage: 13.9 MB, less than 99.55% of Python3 online submissions for Roman to Integer.
