@@ -23,31 +23,30 @@ Given a roman numeral, convert it to an integer.
 
 ```python
 class Solution:
-	def romanToInt(self, s: str) -> int:\
+    def romanToInt(self, s: str) -> int:\
 
-	#need a dictionary
-	#need a judgement to point out the value ordering
+        #need a dictionary
+        #need a judgement to point out the value ordering
 
-    pool = { 'I': 1,
-             'V': 5,
-             'X': 10,
-             'L': 50,
-             'C': 100,
-             'D': 500,
-             'M': 1000}
+        pool = { 'I': 1,
+                'V': 5,
+                'X': 10,
+                'L': 50,
+                'C': 100,
+                'D': 500,
+                'M': 1000}
 
-    pre = 0
-    now = 0
-    total = 0
+        pre = 0
+        now = 0
+        total = 0
 
-    for i in range(len(s)):
-        now = pool[s[i]]
-        if now > pre:
-            total = total - 2*pre + now
-        else:
-            total = total + now
-        pre = now
-    return total
+        for i in range(len(s)):
+            now = pool[s[i]]
+            if now > pre:
+                total = total - 2*pre + now
+            else:
+                total = total + now
+            pre = now
+        return total
 ```
-
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0bb2b19f-46a4-4e85-9c09-221ae732fe3c/Untitled.png)
